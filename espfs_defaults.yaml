@@ -36,10 +36,12 @@ filters:
     #'*.css': uglifycss
     #'*.html': html-minifier
     #'*.js': [babel-convert, uglifyjs]
-    '*.css': no-compression
+    #'*.css': no-compression
     '*.png': no-compression
-    '*.html': no-compression
-    '*.js': no-compression
+    '*.gz': no-compression
+    #'*.json': no-compression
+    #'*.html': no-compression
+    #'*.js': no-compression
     '*.woff': no-compression
     '*.woff2': no-compression
-    #'*': [cache, heatshrink]
+    '*': [cache, heatshrink]
