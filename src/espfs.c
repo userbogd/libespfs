@@ -139,7 +139,7 @@ static const void *find_object(espfs_fs_t *fs, const char *path)
     ESPFS_LOGV(__func__, "%s", path);
 
     uint32_t hash = hash_path(path);
-    ESPFS_LOGV(__func__, "hash %08x", hash);
+    //ESPFS_LOGV(__func__, "hash %08x", hash);
 
     int first = 0;
     int last = fs->header->num_objects - 1;
